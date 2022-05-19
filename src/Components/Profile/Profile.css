@@ -1,0 +1,63 @@
+.Profile{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    margin-right: auto;
+    border-radius: 5%;
+  }
+
+.profile2{
+   margin: 30px;
+    border: 1px solid #3ec4a2;
+    border-radius: 16px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-align: center;
+}
+.profile2:hover {
+    background-color: #3ec4a2;
+    border-color: rgba(0, 0, 0, 0.19);
+        box-shadow: 0 0 10px 0 #46dde7 inset, 0 0 10px 4px #34db8d;
+      
+  }
+  
+.timer {text-align: center;
+    align-self: center;
+    background-color: rgb(228, 243, 17);
+    background-position: 0 90%;
+    background-size: 4px 3px;
+    box-sizing: border-box;
+    color: #f10712;
+    
+    display: block;
+    height: 50px;
+    width: 200px;
+    margin-left: 1200px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-family: Neucha, sans-serif;
+    font-size: 20px;
+    padding: 0.75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-radius: 5%;
+cursor: pointer;    
+    
+  }
+  
+  .timer:hover {
+    box-shadow: 0 0 10px 0 #be1515 inset, 0 0 10px 4px #d81323;
+      
+  }
